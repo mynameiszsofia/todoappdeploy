@@ -15,7 +15,7 @@ connect();
 
 app.use(express.json());
 
-app.use("/todo", todoRoutes);
+app.use("/todos", todoRoutes);
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
